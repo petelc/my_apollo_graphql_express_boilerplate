@@ -1,1 +1,3 @@
-## My Apollo, Graphql, Express base Nodejs project template
+# Apollo-GraphQL-Sequelize-Postgres Boilerplate project
+
+

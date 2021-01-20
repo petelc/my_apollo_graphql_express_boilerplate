@@ -4,17 +4,23 @@ import userSchema from './user';
 import messageSchema from './message';
 
 const linkSchema = gql`
-    type Query {
-        _: Boolean
-    }
+  scalar Date
 
-    type Mutation {
-        _: Boolean 
-    }
+  type Query {
+    _: Boolean
+  }
 
-    type Subscription {
-        _: Boolean
-    }
+  type Mutation {
+    _: Boolean
+  }
+
+  type Subscription {
+    _: Boolean
+  }
 `;
 
-export default [linkSchema, userSchema, messageSchema];
+export default [
+  linkSchema, 
+  userSchema, 
+  messageSchema
+];
